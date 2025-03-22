@@ -1,0 +1,28 @@
+{
+  "name": "langchain-basic-agent",
+  "version": "1.0.0",
+  "description": "Langchain Agent in Typescript + LLM + SearchAPI + Express",
+  "main": "agent.ts",
+  "type": "module",
+  "scripts": {
+    "start": "npx tsx agent.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipeardila1010/langchain-basic-agent.git"
+  },
+  "author": "felipeardila1010@hotmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipeardila1010/langchain-basic-agent/issues"
+  },
+  "homepage": "https://github.com/felipeardila1010/langchain-basic-agent#readme",
+  "dependencies": {
+    "@langchain/community": "^0.3.36",
+    "@langchain/core": "^0.3.42",
+    "@langchain/langgraph": "^0.2.57",
+    "@langchain/ollama": "^0.2.0",
+    "@langchain/openai": "^0.4.7"
+  }
+}
