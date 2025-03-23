@@ -50,18 +50,6 @@ To start the agent service, run:
 npm run start
 ```
 
-The service will be available at `http://localhost:3000`.
-
-### Example Usage
-
-You can interact with the agent by sending requests to the REST API. For example:
-
-```bash
-curl -X POST http://localhost:3000/agent -H "Content-Type: application/json" -d '{"query": "What is the capital of France?"}'
-```
-
-The agent will process the query, fetch relevant information, and respond accordingly.
-
 ## Architecture Diagram
 
 Below is a high-level architecture diagram of the Langchain Agent:
