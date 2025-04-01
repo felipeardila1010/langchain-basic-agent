@@ -17,6 +17,7 @@ const toolNode = new ToolNode(tools);
 // Choose the model
 let model;
 if(process.env.LLM_IS_LOCAL === 'true') {
+  console.log('Using local LLM');
   model = new ChatOllama({
     model: "llama3.2",
     baseUrl: "http://localhost:11434",
@@ -25,6 +26,7 @@ if(process.env.LLM_IS_LOCAL === 'true') {
     // other params...
   });
 } else {
+  console.log('Using OpenAI LLM');
   model = new ChatOpenAI({ temperature: 0 });
 }
 
